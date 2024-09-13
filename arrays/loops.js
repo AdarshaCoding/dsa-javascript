@@ -1,5 +1,3 @@
-// Arrays
-
 const arr = [1, 2, 3, 4, 5, 6];
 console.log(arr);
 
@@ -30,11 +28,5 @@ arr.forEach((el) => {
 console.log("for-in: index");
 
 for (let i in arr) {
-  console.log(i);
-}
-
-console.log("for-of: elements");
-
-for (let i of arr) {
   console.log(i);
 }
