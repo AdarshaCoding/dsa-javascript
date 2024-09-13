@@ -1,6 +1,6 @@
 // Arrays
 
-const arr = [1, 2, 3, 4, 5, 6];
+const arr = [10, 40, 20, 15, 7, 57];
 console.log(arr);
 
 // Traversal: Iterating through the elements of an array
@@ -9,32 +9,5 @@ for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
 
-console.log("while loop"); // Should be careful with termination condition
-let i = 0;
-while (i < arr.length) {
-  console.log(arr[i]);
-  i++;
-}
-
-console.log("do-while loop");
-let j = 0;
-do {
-  console.log(arr[j]);
-  j++;
-} while (j < arr.length);
-
-console.log("forEach");
-arr.forEach((el) => {
-  console.log(el);
-});
-console.log("for-in: index");
-
-for (let i in arr) {
-  console.log(i);
-}
-
-console.log("for-of: elements");
-
-for (let i of arr) {
-  console.log(i);
-}
+// Sorting of an array using built-in method "sort"
+console.log(arr.sort((a, b) => a - b));
