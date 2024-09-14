@@ -2,7 +2,8 @@
 
 ### Arrays
 
-1.  In JavaScript, Array can contain any type of values and it is index based (0, 1, 2, etc..), example - Number, String, Boolean, Objects, Functions etc...
+1.  In JavaScript, array can contain any type of values and it is index based (0, 1, 2, etc..)
+    Example - Number, String, Boolean, Objects, Functions etc...
     ```javascript
     const arr = [
       1,
@@ -19,7 +20,7 @@
 
 #### Loops In JavaScript
 
-- Different loops: for, while, do-while, for-of, for-in
+Different loops: for, while, do-while, for-of, for-in
 
 ```javascript
 // syntax: for(initialization:condition:increment/decrement)
@@ -32,10 +33,10 @@ while (i < arr.length) {
   console.log(arr[i]);
   i++;
 }
-do while  {
+do {
   console.log(arr[i]);
   i++;
-} (i < arr.length)
+} while (i < arr.length);
 ```
 
 #### Sorting Techniques
