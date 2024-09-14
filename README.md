@@ -7,9 +7,7 @@
     const arr = [
       1,
       2,
-      3,
-      4,
-      5,
+      "Adarsha",
       true,
       { name: "Adarsha", city: "Bengaluru" },
       function () {
@@ -24,9 +22,20 @@
 - Different loops: for, while, do-while, for-of, for-in
 
 ```javascript
+// syntax: for(initialization:condition:increment/decrement)
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
+// while & do-while
+let i = 0;
+while (i < arr.length) {
+  console.log(arr[i]);
+  i++;
+}
+do while  {
+  console.log(arr[i]);
+  i++;
+} (i < arr.length)
 ```
 
 #### Sorting Techniques
