@@ -43,3 +43,5 @@ do {
 
 1.  Bubble sort : O(n2)
     - uses two loops, 1 (outer loop) for iterating over the each array elements and 1 (inner loop) for swapping the elements
+2.  Selection sort: O(n2)
+    - this also uses two loops but swaping happens at outer loop level and only tracking index (min or max) will be channged by inner loop

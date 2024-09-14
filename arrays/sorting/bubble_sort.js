@@ -1,3 +1,4 @@
+// Bubble sort
 const arr = [10, 40, 20, 57, 7, 15];
 str = "";
 for (let i = 0; i < arr.length; i++) {
