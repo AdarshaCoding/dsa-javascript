@@ -23,9 +23,9 @@
 
 - Different loops: for, while, do-while, for-of, for-in
 
-```
-for(let i=0; i<arr.length;i++){
-    console.log(arr[i])
+```javascript
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
 }
 ```
 
