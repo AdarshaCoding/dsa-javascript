@@ -9,7 +9,7 @@ console.log(str);
 for (let i = 0; i < arr.length; i++) {
   //this loop used to swap the elements
   for (let j = 0; j < arr.length; j++) {
-    //arr.length - i - 1 : reducing the iterations on each step
+    //arr.length - i - 1 : reducing the iterations on each step: last value which is sorted, no need to check again
     // ascending order: arr[j] > arr[j + 1]   descending order: arr[j] < arr[j + 1]
     console.log(
       `i, j, aar[i], arr[j], iteration - ${i + 1} : ${i}, ${j} - ${arr[i]} - ${
